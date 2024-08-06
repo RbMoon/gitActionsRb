@@ -24,12 +24,7 @@ jobs:
       with: 
         distribution: 'temurin' #see 'supported distributions' for availible options'
         java-version: '17'
-   # - run: java HelloWorldApp.java ejemplo ejecuacion
-    #- name: build with maven
-     # run: 
-      #  mvn clean install
-       # echo "build with maven"
-        
+      
     - name: Cache Maven dependencies
       uses: actions/cache@v2
       with: 
