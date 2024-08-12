@@ -72,7 +72,7 @@ jobs:
         if: ${{ success() }}
         uses: ad-m/github-push-action@master
         with:
-          github_token: $ {{ secrets.Token_Actions }}
+          github_token: $ {{ Token_Actions }}
           branch: ${{ github.base_ref }}
    
       
